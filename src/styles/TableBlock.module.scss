@@ -1,0 +1,19 @@
+.root {
+  .uniqueMarks {
+    display: inline-flex;
+    align-items: center;
+    font-size: 18px;
+
+    a {
+      margin-right: 10px;
+    }
+
+    .count {
+      font-size: 14px;
+    }
+  }
+
+  .selectedMark {
+    display: block;
+  }
+}
