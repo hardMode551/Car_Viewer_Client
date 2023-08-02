@@ -106,8 +106,10 @@ const TableBlock = () => {
     dispatch(setCurrentPage(page));
   };
 
+  type CarData = typeof data[number];
+
   // Определяем функцию для сортировки данных по выбранным маркам автомобилей
-  const sortDataByMark = (data, selectedMark: string[]) => {
+  const sortDataByMark = (data: CarData[], selectedMark: string[]) => {
     if (!selectedMark.length) {
       return data; // Если ни одна марка не выбрана, возвращаем исходные данные
     }

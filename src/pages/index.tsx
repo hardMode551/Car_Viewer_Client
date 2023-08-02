@@ -1,9 +1,9 @@
 import TableBlock from '../components/TableBlock';
-import styles from '../../index.module.scss';
+import '../styles/index.scss';
 
 function App() {
   return (
-    <div className={styles.root}>
+    <div className='root'>
       <TableBlock />
     </div>
   );
