@@ -28,7 +28,7 @@
   },
   "include": [
     "src"
-  ],
+, "src/styles/index.module.scss.d.ts"  ],
   "exclude": [
     "node_modules"
   ]
