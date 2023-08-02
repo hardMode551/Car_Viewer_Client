@@ -3,6 +3,8 @@ import { AppProps } from 'next/app';
 import { Provider } from 'react-redux';
 import { store } from '../store/store';
 
+import './index.scss';
+
 
 
 const MyApp = ({ Component, pageProps }: AppProps) => {

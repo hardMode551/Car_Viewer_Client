@@ -1,5 +1,4 @@
 import TableBlock from '../components/TableBlock';
-import '../styles/index.scss';
 
 function App() {
   return (
